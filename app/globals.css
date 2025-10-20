@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0f19;
+  --card: #0f1424;
+  --text: #ffffff;
+}
+
+.light {
+  --bg: #ffffff;
+  --card: #f5f7fb;
+  --text: #000000;
+}
+
+.dark {
+  --text: #ffffff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-[var(--bg)] text-[var(--text)] antialiased transition-colors duration-200;
+}
+
+/* Smooth scroll for in-page anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+.container-xl {
+  @apply max-w-6xl mx-auto px-4 sm:px-6;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+  will-change: transform, box-shadow;
+}
+
+.glass:hover {
+  transform: scale(1.02);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.10) inset;
+  border-color: rgba(255,255,255,0.18);
+}
+
+/* subtle corner glow using pseudo-element */
+.glass {
+  position: relative;
+}
+
+.glass::after {
+  content: '';
+  position: absolute;
+  inset: -1px; /* align with border */
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 200ms ease, filter 200ms ease;
+  background:
+    radial-gradient(18px 18px at 12px 12px, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(18px 18px at calc(100% - 12px) 12px, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(18px 18px at 12px calc(100% - 12px), rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(18px 18px at calc(100% - 12px) calc(100% - 12px), rgba(255,255,255,0.35), transparent 60%);
+  filter: blur(0px);
+}
+
+.glass:hover::after {
+  opacity: 1;
+  filter: blur(2px);
+}
+
+/* Cursor-following water blob */
+.cursor-blob {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 10;
+  background: radial-gradient(circle at 30% 30%, rgba(22,163,74,0.35), rgba(22,163,74,0.12) 40%, transparent 70%);
+  filter: blur(24px) saturate(120%);
+  mix-blend-mode: screen;
+  transform: translate(-50%, -50%);
+  transition: width 300ms ease, height 300ms ease, filter 300ms ease;
+}
+
+.cursor-blob.morph {
+  width: 260px;
+  height: 200px;
+  filter: blur(28px) saturate(140%);
+  border-radius: 45% 55% 60% 40% / 55% 45% 55% 45%;
+}
+
