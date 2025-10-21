@@ -1,1 +1,6 @@
-node_modules
+# Next.js build and cache folders
+.next/
+.vercel/
+
+# Dependencies
+node_modules/
