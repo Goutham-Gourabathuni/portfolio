@@ -13,15 +13,32 @@ function Header() {
         <div className="absolute -top-20 -right-20 h-56 w-56 rounded-full bg-accent/20 blur-3xl" />
         <div className="absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-white/10 blur-3xl" />
         <div className="relative">
-          <div className="flex items-center justify-between gap-4">
-            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              {profile.name}
-            </h1>
-            <div className="relative h-56 w-56 sm:h-56 sm:w-56 rounded-full overflow-hidden border border-white/20">
-              <Image src={avatar} alt="Profile avatar" fill className="object-cover" />
+          <div className="hidden min-[600px]:block">
+            <div className="flex items-center justify-between gap-4">
+              <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
+                {profile.name}
+              </h1>
+              <div className="relative h-56 w-56 sm:h-56 sm:w-56 rounded-full overflow-hidden border border-white/20">
+                <Image src={avatar} alt="Profile avatar" fill className="object-cover" />
+              </div>
+            </div>
+            <p className="text-accent mt-3 text-lg font-semibold">{profile.role}</p>
+          </div>
+          
+          <div className="block min-[600px]:hidden">
+            <div className="flex flex-col items-center gap-4">
+              <div className="relative h-56 w-56 rounded-full overflow-hidden border border-white/20">
+                <Image src={avatar} alt="Profile avatar" fill className="object-cover" />
+              </div>
+              <div className="text-center">
+                <h1 className="text-4xl font-extrabold tracking-tight leading-tight">
+                  {profile.name}
+                </h1>
+                <p className="text-accent mt-3 text-lg font-semibold">{profile.role}</p>
+              </div>
             </div>
           </div>
-          <p className="text-accent mt-3 text-lg font-semibold">{profile.role}</p>
+          
           <div className="mt-5 flex flex-wrap gap-3">
             <a
               href={`mailto:${profile.email}`}
