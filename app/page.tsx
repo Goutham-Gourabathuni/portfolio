@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Section from '@/components/Section'
 import Navbar from '@/components/Navbar'
-import { profile, projects, plannedProjects, education, certificates } from '@/content/resume'
+import { profile, projects, plannedProjects, education, certificates, Work } from '@/content/resume'
 
 import Image from 'next/image'
 import avatar from '../images/profilepic2.png'
@@ -24,7 +24,7 @@ function Header() {
             </div>
             <p className="text-accent mt-3 text-lg font-semibold">{profile.role}</p>
           </div>
-          
+
           <div className="block min-[600px]:hidden">
             <div className="flex flex-col items-center gap-4">
               <div className="relative h-56 w-56 rounded-full overflow-hidden border border-white/20">
@@ -38,7 +38,7 @@ function Header() {
               </div>
             </div>
           </div>
-          
+
           <div className="mt-5 flex flex-wrap gap-3">
             <a
               href={`mailto:${profile.email}`}
@@ -110,8 +110,24 @@ export default function Page() {
       <Section id="about" title="About">
         <div className="rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50">
           <p className="text-sm text-[var(--text)]">
-            I am a passionate and dedicated student of Computer Science and Engineering in specialization with Artificial Intelligence and Machine Learning at the Vellore Institute of Technology, Bhopal. I am a quick learner and I am always looking for new challenges and opportunities to grow. I am a team player and I am always looking for new ways to improve my skills.
+            I am a passionate and dedicated student of Computer Science and Engineering specializing in Artificial Intelligence and Machine Learning at the Vellore Institute of Technology, Bhopal. I am a quick learner and I am always looking for new challenges and opportunities to grow. I am a team player and I am always looking for new ways to improve my skills.
           </p>
+        </div>
+      </Section>
+
+
+
+      <Section id="work" title="Work Experience">
+        <div className="grid gap-4">
+          {Work.map((w) => (
+            <article key={w.company} className="rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50">
+              <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+                <h3 className="font-semibold text-lg">{w.company}</h3>
+                <span className="text-sm text-[var(--text)]">{w.duration}</span>
+              </div>
+              <p className="mt-2 text-sm text-[var(--text)]">{w.position}</p>
+            </article>
+          ))}
         </div>
       </Section>
 
@@ -225,7 +241,7 @@ export default function Page() {
           <div className="mb-6">
             <h2 className="text-xl sm:text-2xl font-semibold">Get in Touch</h2>
             <p className="mt-2 text-sm text-[var(--text)]">
-              Fill out the form below and I'll get back to you as soon as possible.
+              Fill out the form below and I&apos;ll get back to you as soon as possible.
             </p>
           </div>
 

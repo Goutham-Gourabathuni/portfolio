@@ -11,6 +11,19 @@ export const profile = {
   }
 }
 
+export const Work = [
+  {
+    company: 'Infosys',
+    duration: '2025 – 2026 | India',
+    position: 'Artificial Intelligence and Machine Learning Intern',
+  },
+  {
+    company: 'Yuga Yatra',
+    duration: '2025 – 2025 | India',
+    position: 'Software Development Engineering Intern',
+  }
+]
+
 export const projects = [
   {
     title: 'Bonanza draft1',
@@ -22,7 +35,7 @@ export const projects = [
 export const plannedProjects = [
   {
     title: 'Bonanza',
-    description: 'Full fledged website completely related to the fruit Banana'
+    description: 'Full-fledged website completely related to the fruit Banana'
   },
   {
     title: 'Aahara',
