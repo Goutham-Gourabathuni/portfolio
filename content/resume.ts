@@ -26,26 +26,22 @@ export const Work = [
 
 export const projects = [
   {
-    title: 'Bonanza draft1',
-    description: 'Banana Leaf Nutrient Deficiency Detector - a path to Bonanza',
-    tags: ['Computer Vision', 'ML', 'Prototype']
+    title: 'PodC - An Automated Podcast Analyzer',
+    description: 'The project PodC has been made to analyze the podcasts and summarize them to a structured transcript.',
+    tags: ['Python', 'NLP', 'LLM']
   }
 ]
 
 export const plannedProjects = [
   {
-    title: 'Bonanza',
-    description: 'Full-fledged website completely related to the fruit Banana'
-  },
-  {
     title: 'Aahara',
     description:
-      'Website for healthy dishes from around the world; learn ingredients and make them at home.'
+      'Full Fledged website which showcases the better benefits of vegetarian dishes around the world.'
   },
   {
-    title: 'AI Integrated Smart Glasses for Blind People',
+    title: 'AI integrated Smart Glasses for Visually Impaired (blind people)',
     description:
-      'AI assistant that interprets the environment and guides a blind person for daily life.'
+      'An AI model takes information from the environment by using the provided technology and uses the assistant to guide the blind person, to lead a normal life.'
   }
 ]
 
@@ -72,11 +68,11 @@ export const education = [
 ]
 
 export const certificates = [
-  'Oracle Generative AI Professional | 2025 — Oracle University',
-  'Artificial Intelligence Primer Certification | 2025 — Infosys Springboard',
-  'NPTEL – Cloud Computing | 2025 — Swayam',
-  'Computer Vision 101 | 2025 — Infosys Springboard',
-  'Principles of Generative AI Certification | 2025 — Infosys Springboard',
+  'Oracle Generative AI professional | 2025 — Oracle University',
+  'Oracle AI Foundations Associate | 2025 — Oracle University',
+  'Applied Machine Learning in Python | 2025 — University of Michigan (Coursera)',
+  'Artificial Intelligence | 2025 — Infosys Springboard',
+  'Deep Learning | 2025 — Infosys Springboard',
   'Full Stack Web Development | 2025 — Apna College'
 ]
 

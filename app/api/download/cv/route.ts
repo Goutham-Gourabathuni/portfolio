@@ -3,7 +3,7 @@ import { readFile } from 'fs/promises'
 import { join } from 'path'
 
 export async function GET() {
-  const filePath = join(process.cwd(), 'pdfs', 'Goutham G - resume updated.pdf')
+  const filePath = join(process.cwd(), 'pdfs', 'Goutham-resume-updated-22nd-feb.pdf')
   const buffer = await readFile(filePath)
   return new NextResponse(buffer as any, {
     headers: {
