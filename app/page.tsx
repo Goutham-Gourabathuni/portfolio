@@ -119,15 +119,26 @@ export default function Page() {
 
       <Section id="work" title="Work Experience">
         <div className="grid gap-4">
-          {Work.map((w) => (
-            <article key={w.company} className="rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50">
-              <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
-                <h3 className="font-semibold text-lg">{w.company}</h3>
-                <span className="text-sm text-[var(--text)]">{w.duration}</span>
-              </div>
-              <p className="mt-2 text-sm text-[var(--text)]">{w.position}</p>
-            </article>
-          ))}
+          {Work.map((w) => {
+            const content = (
+              <>
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+                  <h3 className="font-semibold text-lg hover:text-accent transition-colors">{w.company}</h3>
+                  <span className="text-sm text-[var(--text)]">{w.duration}</span>
+                </div>
+                <p className="mt-2 text-sm text-[var(--text)]">{w.position}</p>
+              </>
+            )
+            return w.link ? (
+              <a key={w.company} href={w.link} target="_blank" rel="noopener noreferrer" className="block rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50 cursor-pointer">
+                {content}
+              </a>
+            ) : (
+              <article key={w.company} className="rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50">
+                {content}
+              </article>
+            )
+          })}
         </div>
       </Section>
 
@@ -197,20 +208,40 @@ export default function Page() {
 
       <Section id="education" title="Education">
         <div className="grid gap-4">
-          {education.map((e) => (
-            <article key={e.school} className="rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50">
-              <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
-                <h3 className="font-semibold text-lg">{e.school}</h3>
-                <span className="text-sm text-[var(--text)]">{e.duration}</span>
-              </div>
-              <p className="mt-2 text-sm">{e.degree}</p>
-              <ul className="mt-2 list-disc pl-5 text-sm text-[var(--text)]">
-                {e.highlights.map((h) => (
-                  <li key={h}>{h}</li>
-                ))}
-              </ul>
-            </article>
-          ))}
+          {education.map((e) => {
+            const is12th = /Sri Chaitanya Junior College/i.test(e.school)
+            const is10th = /Jawahar Navodaya Vidyalaya/i.test(e.school)
+
+            let href = ""
+            if (is12th) {
+              href = "/api/certificates/12th-memo"
+            } else if (is10th) {
+              href = "/api/certificates/10th-memo"
+            }
+
+            return (
+              <article key={e.school} className="rounded-xl p-5 border border-white/10 bg-white/5 transition duration-300 hover:shadow-xl hover:shadow-green-500/50">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+                  <h3 className="font-semibold text-lg">
+                    {href ? (
+                      <a href={href} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-accent transition-colors">
+                        {e.school}
+                      </a>
+                    ) : (
+                      e.school
+                    )}
+                  </h3>
+                  <span className="text-sm text-[var(--text)]">{e.duration}</span>
+                </div>
+                <p className="mt-2 text-sm">{e.degree}</p>
+                <ul className="mt-2 list-disc pl-5 text-sm text-[var(--text)]">
+                  {e.highlights.map((h) => (
+                    <li key={h}>{h}</li>
+                  ))}
+                </ul>
+              </article>
+            )
+          })}
         </div>
       </Section>
 
@@ -219,11 +250,32 @@ export default function Page() {
           <ul className="grid gap-2 text-sm">
             {certificates.map((c) => {
               const isFullStack = /Full Stack Web Development/i.test(c)
+              const isOracleGenAI = /Oracle Generative AI professional/i.test(c)
+              const isOracleAIFoundations = /Oracle AI Foundations Associate/i.test(c)
+              const isAMLCoursera = /Applied Machine Learning in Python/i.test(c)
+
+              let href = ""
+
+              if (isFullStack) {
+                href = "/api/certificates/fullstack"
+              } else if (isOracleGenAI) {
+                href = "/api/certificates/oracle-genai"
+              } else if (isOracleAIFoundations) {
+                href = "/api/certificates/oracle-ai"
+              } else if (isAMLCoursera) {
+                href = "/api/certificates/aml-coursera"
+              }
+
               return (
                 <li key={c} className="flex items-start gap-2">
                   <span className="mt-1 size-1.5 rounded-full bg-accent" />
-                  {isFullStack ? (
-                    <a href="/api/certificates/fullstack" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  {href ? (
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
                       {c}
                     </a>
                   ) : (

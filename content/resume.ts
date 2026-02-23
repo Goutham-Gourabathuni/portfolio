@@ -21,6 +21,7 @@ export const Work = [
     company: 'Yuga Yatra',
     duration: '2025 – 2025 | India',
     position: 'Software Development Engineering Intern',
+    link: '/api/certificates/yugayatra' // Opens the certificate PDF
   }
 ]
 
