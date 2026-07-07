@@ -2,7 +2,7 @@
 # 👋 Goutham Gourabathuni — Portfolio
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=900&lines=AI+%26+ML+Engineer;Computer+Vision+Developer;Full+Stack+Developer;Next.js+%7C+FastAPI+%7C+TensorFlow;Always+Building+Something+Awesome!"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=900&lines=AI+%26+ML+Engineer;Computer+Vision+Developer;Confident+Public+Speaker;Next.js+%7C+FastAPI+%7C+TensorFlow;Application+Enhancing+Asset!"/>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 # ✨ About
 
-A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS** showcasing AI, Machine Learning, Computer Vision, and Full-Stack projects.
+A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS** showcasing AI, Machine Learning, Computer Vision, and Web Development related projects.
 
 ## 🚀 Features
 
@@ -68,13 +68,11 @@ A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **
 
 ---
 
-# 🐍 Contribution Snake
+## 🐍 Contribution Snake
 
-> Enable GitHub Actions and replace the image below after configuring the snake workflow.
-
-```md
-![Snake animation](https://github.com/Goutham-Gourabathuni/Goutham-Gourabathuni/blob/output/github-contribution-grid-snake.svg)
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Goutham-Gourabathuni/portfolio/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
 
 ---
 
