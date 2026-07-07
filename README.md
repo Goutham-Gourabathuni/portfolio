@@ -51,6 +51,14 @@ A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **
 # 📊 GitHub Stats
 
 <p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Goutham-Gourabathuni&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Goutham-Gourabathuni&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<!-- <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Goutham-Gourabathuni&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 
@@ -64,22 +72,6 @@ A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Goutham-Gourabathuni&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10"/>
-</p>
-
-<!-- <p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Goutham-Gourabathuni&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Goutham-Gourabathuni&layout=compact&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=Goutham-Gourabathuni&theme=tokyonight"/>
-</p>
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Goutham-Gourabathuni&theme=tokyonight&row=1&column=6"/>
 </p> -->
 
 ---
