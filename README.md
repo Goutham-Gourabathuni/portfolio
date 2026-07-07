@@ -1,212 +1,127 @@
-# 🌐 Goutham Gourabathuni — Developer Portfolio
 
-A modern, responsive, and interactive developer portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS** to showcase my projects, skills, work experience, education, certifications, and AI-focused development journey.
+# 👋 Goutham Gourabathuni — Portfolio
 
-🔗 **Live Demo:** https://portfolio-gouthamg.vercel.app/
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=900&lines=AI+%26+ML+Engineer;Computer+Vision+Developer;Full+Stack+Developer;Next.js+%7C+FastAPI+%7C+TensorFlow;Always+Building+Something+Awesome!"/>
+</p>
 
-🔗 **GitHub Repository:** https://github.com/Goutham-Gourabathuni/portfolio
-
----
-
-# ✨ Features
-
-- 🎨 Modern responsive UI
-- 🌙 Dark / Light theme toggle
-- 🎆 Animated particle background
-- 👤 Professional profile section
-- 💼 Work experience timeline
-- 🚀 Interactive project showcase
-- 🛠 Skills section
-- 🌍 Languages section
-- 🎓 Education timeline
-- 📜 Clickable certifications
-- 📄 Resume download
-- 📬 Contact form (Web3Forms)
-- 🔗 GitHub & LinkedIn integration
-- 📱 Mobile-first responsive design
-- ⚡ Fast deployment on Vercel
+<p align="center">
+<a href="https://portfolio-gouthamg.vercel.app"><img src="https://img.shields.io/badge/Live-Portfolio-22C55E?style=for-the-badge&logo=vercel&logoColor=white"></a>
+<a href="https://github.com/Goutham-Gourabathuni/portfolio"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"></a>
+<a href="https://www.linkedin.com/in/goutham-gourabathuni/"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin"></a>
+</p>
 
 ---
 
-# 🖥 Preview
+# 🌐 Live Demo
 
-## Home
-
-- Personal introduction
-- Social links
-- Resume download
-- Contact information
+### https://portfolio-gouthamg.vercel.app/
 
 ---
 
-## About
+# ✨ About
 
-A concise overview of my background, interests, and expertise in
+A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS** showcasing AI, Machine Learning, Computer Vision, and Full-Stack projects.
 
-- Artificial Intelligence
-- Machine Learning
-- Computer Vision
-- NLP
-- Full Stack Development
+## 🚀 Features
 
----
-
-## Work Experience
-
-Displays internship experiences with
-
-- Company
-- Role
-- Duration
-- Description
-- External links
-
----
-
-## Projects
-
-Highlights featured projects including
-
-### 🎙 PodC
-
-AI-powered podcast analysis platform using
-
-- OpenAI Whisper
-- Sentence-BERT
-- HuggingFace Transformers
-- FastAPI
-- React
-- Streamlit
-
----
-
-### 🍌 Bonanza
-
-AI-powered Banana Nutrient Deficiency Detection System
-
-Built using
-
-- TensorFlow
-- FastAPI
-- React
-- Vercel
-- Render
-
----
-
-### 👓 Smart Glasses
-
-Assistive AI system for visually impaired individuals featuring
-
-- Raspberry Pi
-- YOLO
-- LiDAR
-- Computer Vision
-- Text-to-Speech
-
----
-
-## Future Projects
-
-Dedicated section for upcoming AI and software engineering projects.
-
----
-
-## Skills
-
-Includes technical expertise in
-
-- Python
-- Java
-- JavaScript
-- React.js
-- Next.js
-- FastAPI
-- Machine Learning
-- Artificial Intelligence
-- Data Structures & Algorithms
-- Database Management Systems
-- Computer Networks
-- Raspberry Pi
-- OpenAI Whisper
-- HTML
-- CSS
-- Tailwind CSS
-- Vercel
-
----
-
-## Languages
-
-- English
-- Hindi
-- Telugu
-- Marathi
-- Spanish
-- Japanese
-
----
-
-## Education
-
-Timeline containing
-
-- Vellore Institute of Technology
-- Sri Chaitanya Junior College
-- Jawahar Navodaya Vidyalaya
-
-Each academic record links directly to the corresponding marksheet or transcript.
-
----
-
-## Certifications
-
-Includes verified certifications from
-
-- Oracle University
-- Coursera
-- Apna College
-
-Each certificate is linked for online verification.
-
----
-
-## Contact
-
-Integrated contact form powered by **Web3Forms** allowing visitors to directly send messages without requiring a custom backend.
+- Responsive UI
+- Dark / Light Mode
+- Animated Particle Background
+- Resume Download
+- Interactive Project Cards
+- Contact Form
+- Certificates
+- Skills
+- Education Timeline
+- Work Experience
+- Mobile Friendly
+- Vercel Deployment
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,ts,react,nextjs,nodejs,tailwind,fastapi,tensorflow,pytorch,docker,git,github,vscode,vercel,html,css,npm&perline=7"/>
+</p>
 
-- Next.js 14
-- React
-- TypeScript
-- Tailwind CSS
+---
 
-## Styling
+# 📊 GitHub Stats
 
-- Tailwind CSS
-- CSS Modules
-- Responsive Layout
+<p align="center">
 
-## UI
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Goutham-Gourabathuni&show_icons=true&theme=tokyonight"/>
 
-- Component-Based Architecture
-- Particle Background Animation
-- Dark / Light Theme
-- Hover Animations
-- Smooth Navigation
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Goutham-Gourabathuni&layout=compact&theme=tokyonight"/>
 
-## Forms
+</p>
 
-- Web3Forms
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Goutham-Gourabathuni&theme=tokyonight"/>
+</p>
 
-## Deployment
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Goutham-Gourabathuni&theme=tokyonight&row=1&column=6"/>
+</p>
 
-- Vercel
+---
+
+# 🐍 Contribution Snake
+
+> Enable GitHub Actions and replace the image below after configuring the snake workflow.
+
+```md
+![Snake animation](https://github.com/Goutham-Gourabathuni/Goutham-Gourabathuni/blob/output/github-contribution-grid-snake.svg)
+```
+
+---
+
+# 💼 Featured Projects
+
+## 🎙️ PodC
+
+AI-powered podcast analysis platform.
+
+**Tech**
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,fastapi,python"/>
+</p>
+
+- Whisper
+- Sentence-BERT
+- HuggingFace
+- Streamlit
+
+---
+
+## 🍌 Bonanza
+
+Banana Nutrient Deficiency Detection Platform.
+
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,react,fastapi,python,vercel"/>
+</p>
+
+---
+
+## 👓 Smart Glasses
+
+Assistive AI Smart Glasses for visually impaired people.
+
+<p>
+<img src="https://skillicons.dev/icons?i=python"/>
+</p>
+
+Uses:
+
+- YOLO
+- Raspberry Pi
+- OpenCV
+- TF-Luna LiDAR
+- pyttsx3
 
 ---
 
@@ -218,79 +133,51 @@ components/
 content/
 images/
 public/
-
 README.md
 package.json
 tailwind.config.ts
-next.config.mjs
-tsconfig.json
 ```
 
 ---
 
-# 🚀 Getting Started
-
-Clone the repository
+# 🚀 Installation
 
 ```bash
 git clone https://github.com/Goutham-Gourabathuni/portfolio.git
-```
-
-Move into the project
-
-```bash
 cd portfolio
-```
-
-Install dependencies
-
-```bash
 npm install
-```
-
-Run development server
-
-```bash
 npm run dev
 ```
 
-Open
+Open:
 
-```
+```text
 http://localhost:3000
 ```
 
 ---
 
-# 📈 Future Improvements
+# 📜 Technologies Used
 
-- Blog section
-- Visitor analytics
-- Project filtering
-- Admin dashboard
-- Internationalization (i18n)
-- Performance optimizations
-- Enhanced SEO
-- Dynamic project CMS
-- GitHub contribution graph
-- GitHub API integration
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | Next.js, React, TypeScript |
+| Styling | Tailwind CSS |
+| AI/ML | TensorFlow, PyTorch, OpenAI Whisper |
+| Backend | FastAPI |
+| Deployment | Vercel |
+| Tools | Git, GitHub, VS Code |
 
 ---
 
-# 📄 License
+# 📫 Contact
 
-This project is open-source and available under the MIT License.
+- 🌐 Portfolio: https://portfolio-gouthamg.vercel.app/
+- 💼 LinkedIn: https://www.linkedin.com/in/goutham-gourabathuni/
+- 💻 GitHub: https://github.com/Goutham-Gourabathuni
 
 ---
 
-# 👨‍💻 Author
-
-**Goutham Gourabathuni**
-
-AI/ML Engineer • Full Stack Developer • Computer Vision Enthusiast
-
-GitHub: https://github.com/Goutham-Gourabathuni
-
-LinkedIn: https://www.linkedin.com/in/goutham-gourabathuni/
-
-Portfolio: https://portfolio-gouthamg.vercel.app/
+<p align="center">
+Made with ❤️ using Next.js, TypeScript and Tailwind CSS
+</p>
